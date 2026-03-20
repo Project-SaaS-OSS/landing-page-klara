@@ -1,0 +1,189 @@
+<svg width="1440" height="980" viewBox="0 0 1440 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="70" x2="1258" y2="884" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#ECF5FF"/>
+    </linearGradient>
+    <linearGradient id="sidebar" x1="100" y1="136" x2="350" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F3C8A"/>
+      <stop offset="1" stop-color="#0B224E"/>
+    </linearGradient>
+    <linearGradient id="metricBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="metricGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="metricOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <linearGradient id="heroChart" x1="844" y1="374" x2="1204" y2="579" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#1D4ED8" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="panelShadow" x="34" y="14" width="1372" height="950" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0588235 0 0 0 0 0.0901961 0 0 0 0 0.164706 0 0 0 0.14 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+    <filter id="softShadow" x="0" y="0" width="200" height="200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="14"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.145098 0 0 0 0 0.305882 0 0 0 0 0.631373 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="980" rx="44" fill="url(#bg)"/>
+  <circle cx="1206" cy="124" r="160" fill="#BFDBFE" fill-opacity="0.5"/>
+  <circle cx="145" cy="850" r="140" fill="#A7F3D0" fill-opacity="0.35"/>
+  <circle cx="1178" cy="860" r="114" fill="#E0E7FF" fill-opacity="0.72"/>
+
+  <g filter="url(#panelShadow)">
+    <rect x="90" y="72" width="1260" height="836" rx="38" fill="white"/>
+  </g>
+
+  <rect x="90" y="72" width="1260" height="836" rx="38" fill="white" fill-opacity="0.74"/>
+  <rect x="110" y="92" width="1220" height="796" rx="30" fill="white"/>
+  <rect x="110" y="92" width="238" height="796" rx="30" fill="url(#sidebar)"/>
+
+  <circle cx="154" cy="136" r="6" fill="#F87171"/>
+  <circle cx="176" cy="136" r="6" fill="#FBBF24"/>
+  <circle cx="198" cy="136" r="6" fill="#34D399"/>
+
+  <rect x="138" y="176" width="180" height="74" rx="22" fill="white" fill-opacity="0.1"/>
+  <rect x="160" y="196" width="42" height="42" rx="14" fill="#60A5FA"/>
+  <path d="M177 210H185C188.314 210 191 212.686 191 216V224C191 227.314 188.314 230 185 230H177C173.686 230 171 227.314 171 224V216C171 212.686 173.686 210 177 210Z" fill="white" fill-opacity="0.92"/>
+  <rect x="218" y="197" width="78" height="10" rx="5" fill="white" fill-opacity="0.88"/>
+  <rect x="218" y="216" width="56" height="9" rx="4.5" fill="white" fill-opacity="0.42"/>
+
+  <rect x="138" y="278" width="180" height="1" fill="white" fill-opacity="0.12"/>
+
+  <g font-family="Arial, sans-serif" fill="white">
+    <text x="142" y="314" font-size="14" font-weight="700" fill-opacity="0.72">NAVIGASI</text>
+    <rect x="138" y="336" width="180" height="52" rx="18" fill="white" fill-opacity="0.12"/>
+    <rect x="154" y="352" width="22" height="22" rx="9" fill="#93C5FD"/>
+    <rect x="188" y="354" width="82" height="8" rx="4" fill="white" fill-opacity="0.95"/>
+    <rect x="188" y="369" width="54" height="7" rx="3.5" fill="white" fill-opacity="0.4"/>
+
+    <rect x="138" y="400" width="180" height="52" rx="18" fill="white" fill-opacity="0.05"/>
+    <rect x="154" y="416" width="22" height="22" rx="9" fill="white" fill-opacity="0.12"/>
+    <rect x="188" y="418" width="92" height="8" rx="4" fill="white" fill-opacity="0.75"/>
+    <rect x="188" y="433" width="64" height="7" rx="3.5" fill="white" fill-opacity="0.3"/>
+
+    <rect x="138" y="464" width="180" height="52" rx="18" fill="white" fill-opacity="0.05"/>
+    <rect x="154" y="480" width="22" height="22" rx="9" fill="white" fill-opacity="0.12"/>
+    <rect x="188" y="482" width="104" height="8" rx="4" fill="white" fill-opacity="0.75"/>
+    <rect x="188" y="497" width="70" height="7" rx="3.5" fill="white" fill-opacity="0.3"/>
+
+    <rect x="138" y="528" width="180" height="52" rx="18" fill="white" fill-opacity="0.05"/>
+    <rect x="154" y="544" width="22" height="22" rx="9" fill="white" fill-opacity="0.12"/>
+    <rect x="188" y="546" width="88" height="8" rx="4" fill="white" fill-opacity="0.75"/>
+    <rect x="188" y="561" width="76" height="7" rx="3.5" fill="white" fill-opacity="0.3"/>
+  </g>
+
+  <rect x="138" y="736" width="180" height="120" rx="24" fill="white" fill-opacity="0.08"/>
+  <text x="162" y="768" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" fill-opacity="0.8">KELAS AKTIF</text>
+  <text x="162" y="808" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="white">24</text>
+  <text x="162" y="832" font-family="Arial, sans-serif" font-size="14" fill="white" fill-opacity="0.56">berjalan hari ini</text>
+  <rect x="248" y="780" width="44" height="44" rx="14" fill="#34D399" fill-opacity="0.25"/>
+  <path d="M261 802L270 793L279 799L292 784" stroke="#86EFAC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="382" y="118" width="568" height="54" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect x="406" y="138" width="168" height="14" rx="7" fill="#CBD5E1"/>
+  <rect x="1004" y="118" width="136" height="54" rx="18" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <circle cx="1030" cy="145" r="13" fill="#DBEAFE"/>
+  <rect x="1052" y="137" width="60" height="10" rx="5" fill="#475569"/>
+  <rect x="1162" y="118" width="146" height="54" rx="18" fill="#0F172A"/>
+  <text x="1190" y="149" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="white">Export laporan</text>
+
+  <text x="382" y="228" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#0F172A">Dashboard ringkas untuk hari ini</text>
+  <text x="382" y="262" font-family="Arial, sans-serif" font-size="17" fill="#64748B">Kehadiran, progres kelas, dan performa cabang terlihat dalam satu panel.</text>
+
+  <g filter="url(#softShadow)" transform="translate(382 306)">
+    <rect width="202" height="136" rx="26" fill="url(#metricBlue)"/>
+    <text x="26" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" fill-opacity="0.8">SISWA AKTIF</text>
+    <text x="26" y="88" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="white">1,248</text>
+    <text x="26" y="114" font-family="Arial, sans-serif" font-size="14" fill="white" fill-opacity="0.82">+8.4% dibanding bulan lalu</text>
+    <circle cx="164" cy="36" r="18" fill="white" fill-opacity="0.16"/>
+    <circle cx="154" cy="78" r="48" fill="white" fill-opacity="0.08"/>
+  </g>
+
+  <g filter="url(#softShadow)" transform="translate(606 306)">
+    <rect width="202" height="136" rx="26" fill="url(#metricGreen)"/>
+    <text x="26" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" fill-opacity="0.8">ABSENSI HARI INI</text>
+    <text x="26" y="88" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="white">97%</text>
+    <text x="26" y="114" font-family="Arial, sans-serif" font-size="14" fill="white" fill-opacity="0.82">492 siswa sudah hadir</text>
+    <circle cx="164" cy="36" r="18" fill="white" fill-opacity="0.16"/>
+    <circle cx="154" cy="78" r="48" fill="white" fill-opacity="0.08"/>
+  </g>
+
+  <g filter="url(#softShadow)" transform="translate(830 306)">
+    <rect width="202" height="136" rx="26" fill="url(#metricOrange)"/>
+    <text x="26" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" fill-opacity="0.8">TARGET MINGGUAN</text>
+    <text x="26" y="88" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="white">82%</text>
+    <text x="26" y="114" font-family="Arial, sans-serif" font-size="14" fill="white" fill-opacity="0.82">On track untuk 4 cabang</text>
+    <circle cx="164" cy="36" r="18" fill="white" fill-opacity="0.16"/>
+    <circle cx="154" cy="78" r="48" fill="white" fill-opacity="0.08"/>
+  </g>
+
+  <rect x="382" y="474" width="532" height="306" rx="30" fill="#F8FBFF" stroke="#E2E8F0"/>
+  <text x="414" y="518" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Performa 6 minggu terakhir</text>
+  <text x="414" y="546" font-family="Arial, sans-serif" font-size="14" fill="#64748B">Rata-rata kehadiran dan konversi siswa baru</text>
+  <path d="M438 722H862" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M438 674H862" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+  <path d="M438 626H862" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+  <path d="M438 578H862" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+  <rect x="438" y="566" width="394" height="128" rx="22" fill="url(#heroChart)"/>
+  <path d="M450 678C490 664 522 646 560 648C598 650 620 602 660 596C700 590 726 610 764 594C802 578 828 538 858 522" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M450 696C490 688 516 664 554 664C592 664 628 654 658 636C688 618 722 642 760 628C798 614 828 606 858 590" stroke="#10B981" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="560" cy="648" r="8" fill="#2563EB"/>
+  <circle cx="660" cy="596" r="8" fill="#2563EB"/>
+  <circle cx="760" cy="628" r="8" fill="#10B981"/>
+  <circle cx="858" cy="522" r="8" fill="#2563EB"/>
+  <text x="438" y="746" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Minggu 1</text>
+  <text x="542" y="746" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Minggu 2</text>
+  <text x="646" y="746" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Minggu 3</text>
+  <text x="750" y="746" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Minggu 4</text>
+  <text x="842" y="746" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Minggu 6</text>
+
+  <rect x="938" y="474" width="350" height="184" rx="30" fill="#0F172A"/>
+  <text x="970" y="518" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="white">Agenda tutor</text>
+  <text x="970" y="546" font-family="Arial, sans-serif" font-size="14" fill="#94A3B8">Kelas berikutnya yang perlu dipantau</text>
+  <rect x="970" y="570" width="286" height="54" rx="18" fill="white" fill-opacity="0.06"/>
+  <circle cx="1000" cy="597" r="10" fill="#38BDF8"/>
+  <text x="1024" y="590" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="white">Matematika Intensif</text>
+  <text x="1024" y="610" font-family="Arial, sans-serif" font-size="13" fill="#94A3B8">15.00 - 16.30 | Ruang C2</text>
+  <rect x="1178" y="582" width="58" height="28" rx="14" fill="#10B981" fill-opacity="0.18"/>
+  <text x="1194" y="601" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#86EFAC">Siap</text>
+
+  <rect x="970" y="636" width="286" height="54" rx="18" fill="white" fill-opacity="0.06"/>
+  <circle cx="1000" cy="663" r="10" fill="#F59E0B"/>
+  <text x="1024" y="656" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="white">TO Bahasa Inggris</text>
+  <text x="1024" y="676" font-family="Arial, sans-serif" font-size="13" fill="#94A3B8">17.00 - 18.30 | Ruang A1</text>
+  <rect x="1170" y="648" width="66" height="28" rx="14" fill="#FB7185" fill-opacity="0.16"/>
+  <text x="1184" y="667" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FDB4C0">Review</text>
+
+  <rect x="938" y="688" width="350" height="184" rx="30" fill="#F8FBFF" stroke="#E2E8F0"/>
+  <text x="970" y="732" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Cabang terbaik minggu ini</text>
+  <text x="970" y="760" font-family="Arial, sans-serif" font-size="14" fill="#64748B">Skor berdasarkan kehadiran, retensi, dan progress modul</text>
+
+  <rect x="970" y="786" width="286" height="18" rx="9" fill="#E2E8F0"/>
+  <rect x="970" y="786" width="244" height="18" rx="9" fill="url(#metricBlue)"/>
+  <text x="970" y="830" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Cabang Denpasar</text>
+  <text x="1216" y="830" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#2563EB">89/100</text>
+
+  <rect x="970" y="846" width="206" height="10" rx="5" fill="#DBEAFE"/>
+  <rect x="1188" y="842" width="68" height="18" rx="9" fill="#ECFDF5"/>
+  <text x="1202" y="855" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#059669">Naik</text>
+</svg>
