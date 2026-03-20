@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { PlayCircle, Sparkles } from 'lucide-react';
 
 export default function DashboardPreview() {
   return (
